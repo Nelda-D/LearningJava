@@ -1,0 +1,859 @@
+﻿[{
+    "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNjg0NjE3Mjg4\" frameborder=0 allowfullscreen></iframe>",
+    "writeTime":"2015年7月21日",
+    "buttonUrl":"http://v.youku.com/v_show/id_XNjg0NjE3Mjg4.html",
+    "titleContent":"第一集  Java考古学",
+    "textContent":"        Java是一种可以撰写跨平台应用程序的面向对象的程序设计语言。Java 技术具有卓越的通用性、高效性、平台移植性和安全性，广泛应用于PC、数据中心、游戏控制台、科学超级计算机、移动电话和互联网，同时拥有全球最大的开发者专业社群。"
+	},
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjUzMjQ3OTYw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjUzMjQ3OTYw.html",
+        "titleContent":"第二集  Java创世纪",
+        "textContent":"什么是编程？\n\n
+        学会编程可以让你和计算机随意的沟通\n
+        编程是一种创造性的工作\n
+        学会编程会让上帝与你同在\n
+        编译源代码\n\n
+什么是编译？\n\n
+        1、源代码是人类可以理解的代码\n
+        2、计算机无法理解源代码\n
+        3、编译就是将源代码转换为计算机可以理解的代码\n\n
+运行程序\n\n
+        源文件编译(javac)之后，会生成一个类文件；\n
+        使用java命令运行类文件；\n
+        观察运行结果；\n\n
+编程习惯的养成\n\n
+        1、凡是成对出现的符号最好一次性写一对，比如小括号、中括号和引号等；\n
+        2、注意字符的大小写；\n
+        3、养成良好的缩进习惯；\n
+"
+	},
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjUzMjYyNjIw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjUzMjYyNjIw.html",
+        "titleContent":"第三集  Java基本概念",
+        "textContent":"什么是环境变量？\n\n
+        环境变量通常是指在操作系统当中，用来制定操作系统运行时需要的一些参数；\n
+        环境变量通常为一系列的键值对；\n\n
+Path环境变量的作用\n\n
+        Path环境变量是操作系统外部命令搜索路径\n\n
+Classpath环境变量的作用\n\n
+        Classpath环境变量是类文件搜索路径\n\n
+什么是JRE\n\n
+        JRE是Java Runtime Environment，即Java运行环境，包括以下几个部分：\n
+        1、Java虚拟机；\n
+        2、Java平台核心类文件；\n
+        3、其他支持文件；\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDU3MDAw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDU3MDAw.html",
+        "titleContent":"第四集  Java的变量",
+        "textContent":"什么是变量？\n\n
+        计算机是一种极度精确的机器；\n
+        要将信息存储在计算当中，就必须指明信息存储的位置和所需要的内存空间；\n
+        在Java编程语言当中，使用声明语句完成上述的任务；\n\n
+数据类型：\n\n
+        基本数据类型：\n
+        数值型：\n
+                整数类型（byte，short，int，long）\n
+        字符型（char）\n
+        布尔型（boolean）\n
+        引用数据类型：\n
+        类（class）\n
+        接口（interface）\n\n
+变量的命名规范\n\n
+        应该以字母、下划线或者美元符号开头；\n
+        后面跟字母、下划线、美元符或者是数字；\n
+        Java变量名没有长度限制；\n
+        Java变量名对大小写敏感\n\n
+驼峰命名法：\n\n
+        变量名应该用有意义的英文单词；\n
+        变量名如果只是一个单词，则所有的字符小写；\n
+        变量名如果由多个英文单词组成，则从第二个单词开始首字母大写；\n\n
+变量命名示范\n\n
+        合法的变量命名：\n
+        Password\n
+        Last-name\n
+        $abc\n
+        –ref\n
+        正确的变量命名：\n
+        password\n
+        lastName\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDYyMzAw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDYyMzAw.html",
+        "titleContent":"第五集  Java的基本数据类型",
+        "textContent":"布尔型变量\n\n
+        boolean类型适用于逻辑运算，一般用于程序流程控制；\n
+        在java当中的boolean类型只有两种取值可能——true和false\n
+        eg：\n
+        Boolean=false；\n
+        注意的是不能用0和非0，或者空和非空来表示；\n\n
+字符型变量\n\n
+        Char类型数据用来表示通常意义上的字符；\n
+        字符是由单引号包括起来的单个字符；(字符串用双引号)\n
+        Java字符使用Unicode字符集；\n
+        什么是Unicode字符集呢？\n\n
+ASCII字符集\n\n
+        全称为American Standard Code for Information intetchange\n
+        对字符集的理解可以从以下几个方面入手：\n
+        在计算机当中，所有数据都需要使用二进制的数字表示\n
+        类似于a、b、c之类的字母无法直接用二进制表示\n
+        所以就将所有常见的字符经行编号。标准ASCII码使用7位2进制数来表示字符。\n
+        7位2进制数可以表示所有的数字，大小写字母以及一些常见符号（例如！@#和$等等）\n\n
+Unicode字符集\n\n
+        Unicode为每种语言的每个字符设定了通同意并且唯一的二进制编码\n
+        Unicode满足了跨语言文本转换和处理的需求\n
+        Unicode在互联网当中扮演着非常重要的角色\n
+        Unicode使用数字0-0x10FFFF来表示字符\n
+        最多允许有1114112个字符\n\n
+Java与Unicode字符集\n\n
+        由于Java在设计的初期就考虑该语言使用在互联网当中，所以设计者们就选用了Unicode字符集，这也使得Java程序能够在互联网当中更好的流通，也正在由于这样的原因，一下的代码是合法的；\n
+        Char c=‘中’；\n\n
+数值型变量\n\n
+        数值型变量分为两大类\n
+        整数类型：\n
+        Byte(占用1字节)\n
+        short(占用2字节)\n
+        int (占用4字节)\n
+        long(占用8字节)\n
+        浮点型：\n
+        float(占用4字节)\n
+        double(占用8字节)\n\n
+整数常量\n\n
+        Java语言整数常量的三种表示形式：\n
+                —十进制整数，如12，-314,0\n
+                —八进制整数，要求以0开头，如012\n
+                —十六进制数，要求0x或0X开头如0x12\n
+        Java语言的整型常量默认为int型，如：int i=3；\n
+        声明long型常量可以后加‘l’或‘L’，如long l=3L\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDgzOTA0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDgzOTA0.html",
+        "titleContent":"第六集  练习课（一）",
+        "textContent":"字面量：\n\n
+        整数字面量为整型（int）\n
+        小数字面量为双精度浮点型（double）\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDkxNTQ0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDkxNTQ0.html",
+        "titleContent":"第七集  运算符与表达式",
+        "textContent":"Java当中的运算符\n\n
+        1、算数运算符：+，—，*，%，++，——\n
+        2、关系运算符：>,<,>=,<=,==,!=\n
+        运算形式：左操作数 关系运算符 右操作数；\n
+        在关系运算符中，最终得到的一定是布尔类型中的真（true）或者假（flase），不会 有第三种值；\n
+        关系运算符包括： == 等于：如果两个值相等，则返回真值\n
+       （注：关系运算一定要用==【等于】不要用=【赋值号】）\n
+        3、布尔逻辑运算符：!(逻辑非),&（逻辑与）,丨（逻辑或），^（逻辑异或）,&&（短路与）,丨丨（短路或）\n
+        4、位运算符：&，丨，^，~,>>,<<,>>>\n
+        5、赋值运算符：=扩展赋值运算符：+=， —=，*=，/=\n
+        6、字符串连接运算符：+\n\n
+算数运算符\n\n
+        要点一：\n
+        Int I = 3/2 请问i的值是几？（答案：i=1）\n
+        原因：一个运算的结果取决于所有操作数中操作数那个最大的类型。\n
+        要点二：\n
+        I++和++ide 区别是什么？\n
+        i++是使用了i的值之后再将i的值加1\n
+        ++i是在使用i的值之前就将i的值加1\n\n
+表达式的类型和值\n\n
+        表达式是符合一定语法规范的运算符和操作符的序列：\n
+                如I;        10.5+I;      (i+j)-2\n
+        表达式的值：\n
+                对于表达式中操作数进行运算得到的结果称为表达式的值\n
+        表达式的类型：\n
+                表达式的值得数据类型即为表达式的类型\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDc0MDA0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDc0MDA0.html",
+        "titleContent":"第八集  分支语句",
+        "textContent":"程序运行流程的分类\n\n
+		1. 顺序结构\n
+		2. 分支结构\n
+		3. 循环结构\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjU0NDkwMTI0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjU0NDkwMTI0.html",
+        "titleContent":"第九集  练习课（二）",
+        "textContent":"联系使用if...else...结构"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjcyOTM0NjA0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjcyOTM0NjA0.html",
+        "titleContent":"第十集  循环语句",
+        "textContent":"for循环执行过程\n\n
+        for（int i = 0; i < 10; i++）{\n
+                System.out.println(i);\n
+        }\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjcyOTM0ODE2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjcyOTM0ODE2.html",
+        "titleContent":"第十一集  练习课（三）",
+        "textContent":"练习一：打印出100——200之间的所有素数\n\n
+步骤：\n
+        1、定义一个类，名为TestPrimNumber\n
+        2、在类当中定义函数；\n
+        3、用for循环打印出所有在100——200之间的数字；\n
+        用for循环当中，每当循环执行一次，就判断循环变量的值是否为素数，如果是，就将循环变量的当前值打印出来；\n
+        a）判断n是否为素数，首先用2除n，如果除不尽，再用3除n，一次类推，如果从2到n-1,都无法整除n，那么n就为素数。\n\n
+
+练习二：在命令行中打印出如下的图形：\n\n
+           *\n
+          * *\n
+         * * *\n
+        * * * *\n\n
+步骤：\n
+        1、定义一个类，名为TestTriangle；\n
+        2、在类当中定义一个主函数；\n
+        3、使用for循环打印四行，每行一个“*”\n
+        打印四行，每一行当中都包含四个“* ”\n
+        打印四行，第一行当中有一个“* ”第二行当中有“* ”，一次类推；\n
+        在打印“*”之前，首先要打印“ ”第一行当中首先打印三个“ ”，第二行两个，一次类推；\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjcyOTM2Mzky\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjcyOTM2Mzky.html",
+        "titleContent":"第十二集  面向对象基础（一）",
+        "textContent":"什么是面向对象？\n\n
+1、面向对象是一种编程方法；\n
+2、面向对象是一种思维方式；\n
+3、面向对象不是一种编程语言；\n\n
+应该如何学习面向对象？\n\n
+1、掌握一门面向对象语言的语法\n
+2、掌握面向对象的思维方式\n
+3、熟悉面向对象设计原则\n
+4、掌握面向对象设计模式\n\n
+什么是面向对象思维方法？\n
+1、首先确定谁来做，其次确定怎么做；\n
+2、首先考虑整体，其次考虑局部；\n
+3、首先考虑抽象，其次考虑具体\n\n
+小结:\n\n
+1、不要认为掌握了一门面向对象语言就是掌握了面向对象；\n
+2、习惯于将面向对象与现实世界作比较；\n
+3、面向对象设计的终极目标就是减少重复代码。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTU5MDMy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTU5MDMy.html",
+        "titleContent":"第十三集  面向对象基础（二）",
+        "textContent":"创建类的方法\n
+class {\n
+        属性；（也叫成员变量，说明类的状态）\n
+        方法；（也叫成员函数，说明类的行为）\n
+        }\n\n
+对象的创建方法\n
+        类名 对象名 =  new  类名（）；\n
+        Dog   dog   =  new  Dog（）;\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjcyOTM2NTcy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjcyOTM2NTcy.html",
+        "titleContent":"第十四集  面向对象基础（三）",
+        "textContent":"对象的使用方法\n
+对象.变量\n
+对象.函数（）\n\n
+匿名对象的创建和使用方法\n
+    new  类名().成员函数();\n
+    new dog().jump();\n
+直接创建一个无名对象，并调用这个无名对象的成员函数；\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjcyOTQ2OTky\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjcyOTQ2OTky.html",
+        "titleContent":"第十五集  面向对象基础（四）",
+        "textContent":"函数的重载：\n
+同一个类中的函数（就是方法），同样的函数名，不同的参数列表\n\n
+·构造函数不是成员函数\n
+·如果作者编写了一个有参的构造函数，系统不会再默认添加一个无参的构造函数了。\n
+·构造函数没有返回值类型\n
+·构造函数的名字，必须和类名一样。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTU5NDQ0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTU5NDQ0.html",
+        "titleContent":"第十六集  this的使用方法",
+        "textContent":"this.=调用该变量或者函数的对象的人称代词"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjg5NDM1Mzc2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjg5NDM1Mzc2.html",
+        "titleContent":"第十七集  static关键字的使用",
+        "textContent":"静态：表示在这个类中，该值是统一的、不变的。\n\n
+静态成员变量，可以直接用类名调用（也可以用成员的名称调用，如p1.name）\n\n
+格式：static{\n
+        System.out.println(“这就是静态代码块”);\n
+    }\n\n
+在装载类到内存的时候，就会被调用，\n
+不管有没有主函数，它都会执行\n
+静态代码块自己就运行\n
+作用：用于给一些变量赋初始值。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMjg5NDYyODcy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMjg5NDYyODcy.html",
+        "titleContent":"第十八集  继承初步",
+        "textContent":"什么是继承?\n\n
+在现实世界当中，继承就是儿子得到了老子的东西。\n
+在面向对象的世界当中，继承就是一个类得到了另一个类当中的成员变量和成员方法。\n\n
+Java当中只支持单继承，不允许多继承。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQ3OTYzODg4\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQ3OTYzODg4.html",
+        "titleContent":"第十九集  子类实例化过程",
+        "textContent":"一、生成子类的过程\n\n
+在子类的构造函数中必须调用父类的构造函数；\n\n
+二、super调用父类构造函数\n\n
+调用父类构造函数，默认加入了super();\n
+super（构造函数的参数）；\n
+super(name,age,add);\n
+用super调用构造函数，一定是本条构造函数语句的第一行语句。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQ3OTYzOTUy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQ3OTYzOTUy.html",
+        "titleContent":"第二十集  函数的复写",
+        "textContent":"一、函数的复写override(重载是在一个类中，复写实在父子两个类中)\n\n
+二、super调用父类的成员函数函数（上节课调用的是构造函数）\n\n
+复写：\n
+1、复写（override）也称为覆盖或者重写。\n
+2、在具有父子关系的两个类中；\n
+3、在父类和子类中，各有一个函数，它们的返回值类型、函数名、参数列表完全相同\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQ3OTY0MDEy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQ3OTY0MDEy.html",
+        "titleContent":"第二十一集  对象的转型",
+        "textContent":"一、对象的向上转型：将子类的对象赋值给父类的引用\n\n
+二、对象的向下转型:将父类的对象赋值给子类的引用\n\n
+问：为什么向上转型在向下转型：\n
+答：比如先定义一台笔记本，先向上转型成电脑，再向下转型成另一台笔记本，是可以的；如果没有向上转型，那就相当于随便一台电脑（包括台式机）向下转型成笔记本，是不现实的。所以，要先在子类创建一个对象，比如在Student类中创建一个孩子，再向上转成Person，再转回来。不能直接创建一个大人（Person），再变成小孩（Student）。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjAzNDQ0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjAzNDQ0.html",
+        "titleContent":"第二十二集  面向对象应用（一）",
+        "textContent":"被客户的各种需求所烦恼：\n\n
+设计一个打印机程序，能开机、关机、打印（使用工厂模式）\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA0NjE2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA0NjE2.html",
+        "titleContent":"第二十三集  抽象类和抽象函数",
+        "textContent":"抽象函数：\n
+只有函数定义，没有函数体的函数\n\n
+什么是抽象类：\n
+使用abstract定义的类，被称为是抽象类。\n
+1、抽象类不能声称对象；\n
+2、如果一个类中，有抽象函数，那么这个类也必须是抽象类；\n
+3、如果一个类中，没有抽象函数，那么这个类也可以被定义为抽象函数。\n\n
+抽象类可以有构造函数么?\n
+可以。在生成子类的构造函数的时候通过子类生成super（）来被调用。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1MjI0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1MjI0.html",
+        "titleContent":"第二十四集  为什么用抽象类",
+        "textContent":"抽象类的作用\n\n
+        如果在父类中定义了抽象函数（父类也必然是抽象类），在子类（非抽象类）中没有或忘记对抽象函数进行复写，那么程序就会报错，通知作者对抽象函数进行复写（使方法具体化）。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1NDIw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1NDIw.html",
+        "titleContent":"第二十五集  包和访问权限（二）",
+        "textContent":"打包后一个类的全名，应该是：\n
+“包名”+“.”+“类名”：cheng.test\n
+进入包的文件夹里g:\java\cheng>java test,也不行。\n\n
+包名的命名规范：\n
+1、要求所有字母都要小写。\n
+2、一般是域名倒写 package com.chengbin;\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1NTk2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1NTk2.html",
+        "titleContent":"第二十六集  包和访问权限（二）",
+        "textContent":"一、包的访问权限\n\n
+二、软件包的导入\n\n
+public：公共\n
+private：私人\n
+default：默认\n
+protected：保护\n\n
+public：可以修饰类、变量、函数\n
+private：能修饰变量也能修饰函数\n
+default：（不写权限修饰符，就是default权限）\n
+protected: 私人的但是可以继承\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1Njgw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1Njgw.html",
+        "titleContent":"第二十七集  包和访问权限（三）",
+        "textContent":"一、访问权限与继承\n\n
+二、protected权限\n\n
+protected：\n
+和default一样，但是只能修饰成员变量和成员函数，不能修饰类；\n
+protected允许跨包的继承。\n\n
+protected和public的区别：\n
+protected说明在不同包的类中，只有这个类（person）的子类（student），才能调用父类的变量和成员函数。\n
+public说明包外任何类都可以调用变量和成员函数，没有父子关系也可以使用。\n\n
+public  >  protected   >  default  >  private\n
+公共    >  跨包继承的  > 同一个包的 > 本类中的\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1NzQ0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1NzQ0.html",
+        "titleContent":"第二十八集  接口的基本语法",
+        "textContent":"1、用interface定义的\n
+2、接口中的方法全是抽象方法\n
+3、接口中的方法全是public\n
+4、接口不能生成对象，在继承的子类中，复写抽象方法。\n
+5、一个类可以实现多个接口，与类继承不同，如手机可以通过usb和wifi等链接电脑\n
+6、一个接口可以继承多个接口。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA1OTc2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA1OTc2.html",
+        "titleContent":"第二十九集  接口的应用",
+        "textContent":"一、为什么要用接口\n\n
+二、工厂方法模式\n\n
+   class Test{\n
+    public static void main(String args []){\n
+        //根据用户的选择，生成相应的打印机对象\n
+        //并且向上转型为Printer类型\n
+        //Printer getPrinter(int flag)\n
+        int flag = 2 ;\n
+        Printer printer = PrintFactory.getPrinter(flag);\n
+        printer.open();\n
+        printer.print(“test”);\n
+        printer.close();\n
+    }\n
+}\n\n
+工厂模式:\n\n
+class PrinterFactory{\n
+    public static Printer gerPrinter(int flag){\n
+        Printer printer = null;\n
+        if(flag == 0){\n
+            printer = new HPPrinter();\n
+        }\n
+        else if(flag ==1){\n
+            printer = new CanonPrinter();\n
+        }\n
+        else if(flag == 2){\n
+            printer = new XXXPrinter();\n
+        }\n
+        teturn printer;\n
+    }\n
+}\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2MDYw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2MDYw.html",
+        "titleContent":"第三十集  Java当中的异常（一）",
+        "textContent":" 一、什么是异常\n\n
+    异常是指中断了正常的指令流的事件。\n\n
+二、异常的分类\n\n
+（1）Exception\n
+各种异常的根类\n
+如果你不知道将发生的异常集体属于哪，而可以肯定种这个地方会出现异常时，可以把异常类型定义为Exception。\n
+（2）ArithmeticException\n
+算数运算错误异常\n
+这个异常是在算数运算时经常遇到的，常见的情况是除数为0时抛出的异常。\n
+（3）ArrayIndexOfOutBoundsException\n
+数组下标越界\n
+编程时要记住Java数组下标是从0开始的，数组下标最大值为数组长度减1，如arr[10]，最后一个数组元素是arr[9]，如果写成arr[10]就会出现ArrayIndexOfOutBoundsException异常。\n
+（4）NullPointException\n
+空指针异常\n
+这个异常是针对调用未经初始化或未定义的对象抛出的异常。\n
+（5）ClassNotFoundException\n
+不能加载所需的类\n
+在java文件编译后，可能是由于需要把.class文件移到了其他的文件夹，此时引用这个.class文件要注意修改其路径，否则会抛出ClassNotFoundException异常。\n
+（6）InputMismatchException\n
+输入的数据类型与所需类型不匹配异常\n
+比如你需要int类型，但是通过输入框得到的是String类型，就会抛出InputMismatchException异常。\n
+（7）IllegalArgumentException\n
+方法接受非法参数\n
+这个是传入方法中的参数类型不正确，如方法plus（int a，int b），调用时写成a.plus(1,a)就会出现IllegalArgumentException异常。\n
+（8）NumberFormatException\n
+字符串转换成数字异常\n
+在数据类型强制转换时出现的异常，字符串“123”转换成数字123不会出现异常，但是字符串“1@23”转换成int类型就会抛出ClassCastException异常。\n\n
+三、try…catch…finally结构的使用方法\n\n
+class Test{\n
+    public static void main (String args [])    {\n
+        System.out.println(1);\n
+        try {\n
+            System.out.println(2);\n
+            int i = 1 / 0;\n
+            System.out.println(3);      }\n
+        catch (Exception e) {//如果try中的语句没有异常，catch里的就不执行\n
+            e.printStackTrace();\n
+            System.out.println(4);      }\n
+        System.out.println(5);\n
+    }}\n
+//finally无论try中有没有异常，都会执行，是try的出口。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2MTQ4\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2MTQ4.html",
+        "titleContent":"第三十一集  Java当中的异常（二）",
+        "textContent":" throw:\n\n
+throw抛出在方法体内一个异常，抛出之后如果不用try…catch处理就中止指令。\n\n
+throws\n\n
+throws是在定义方法时候声明一个异常，原方法（函数）将不负责处理这个异常，而是谁调用这个方法，谁就处理这个异常\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2MjM2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2MjM2.html",
+        "titleContent":"第三十二集  Java当中的IO（一）",
+        "textContent":"一、I/O操作的目标\n\n
+二、I/O的分类方法\n\n
+三、读取文件和写入文件的方法\n\n
+I/O操作的目标\n
+从数据源当中读取数据，以及将数据写入到数据目的地当中。\n\n
+I/O的流向\n
+(文件、键盘、网络)--输入-->(Java程序)--输出-->(文件、屏幕、网络)\n\n
+I/O的分类\n
+第一种分类\n
+1、输入流      2、输出流\n
+第二种分法\n
+1、字节流      2、字符流\n
+第三种分法\n
+1、节点流      2、处理流\n\n
+I/O当中的核心类\n
+InputStream\n
+OutputStream\n
+FileputStream\n
+FileOutputStream\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2Mjg4\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2Mjg4.html.html",
+        "titleContent":"第三十三集  Java当中的IO（二）",
+        "textContent":"字符流的使用方法\n\n
+基础知识：\n
+字符流：读取文件时，以字符为基础\n
+根本类包括\n
+1、字节输入流都是Reader的子类\n
+    常用子类：FileReader\n
+    核心方法：int read(char [] c , int off , int len)\n
+2、字节输出流都是Writer的子类\n
+    常用子类：FileWriter\n
+    核心方法：Void write(char [] c , int off , int len)\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2MzUy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2MzUy.html",
+        "titleContent":"第三十四集  Java当中的IO（三）",
+        "textContent":"1、处理流使用实例\n\n
+2、“装饰者（Decorator）”模式\n\n
+3、节点流与处理流的关系\n\n
+BufferedReader（字符输入处理流）介绍:\n\n
+这个类就是一个包装类，它可以包装字符流，将字符流放入缓存里，先把字符读到缓存里，到缓存满了或者你flush的时候，再读入内存，就是为了提供读的效率而设计的。\n\n
+生成BufferedReader对象的方法；\n
+BufferedReader in = new BufferedReader（newFileReader（“foo.in”））\n；
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2NTY0\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2NTY0.html",
+        "titleContent":"第三十五集  内部类和匿名内部类",
+        "textContent":"内部类：\n\n
+        内部类仍然是一个独立的类，在编译之后内部类会被编译成独立的.class文件，但是前面冠以外部类的类名和$符号 。\n
+        内部类不能用普通的方式访问。内部类是外部类的一个成员，因此内部类可以自由地访问外部类的成员变量，无论是否是private的 。\n
+        内部类声明成静态的，就不能随便的访问外部类的成员变量了，此时内部类只能访问外部类的静态成员变量 。\n\n
+        匿名内部类：\n\n
+        匿名内部类也就是没有名字的内部类\n
+        正因为没有名字，所以匿名内部类只能使用一次，它通常用来简化代码编写\n
+        但使用匿名内部类还有个前提条件：必须继承一个父类或实现一个接口\n\n
+        在使用匿名内部类时，要记住以下几个原则：\n
+        ·匿名内部类不能有构造方法。\n
+        ·匿名内部类不能定义任何静态成员、静态方法。\n
+        ·匿名内部类不能是public,protected,private,static。\n
+        ·只能创建匿名内部类的一个实例。\n
+        ·一个匿名内部类一定是在new的后面，用其隐含实现一个接口或实现一个类。\n
+        ·因匿名内部类为局部内部类，所以局部内部类的所有限制都对其生效。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2NjM2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2NjM2.html",
+        "titleContent":"第三十六集  Java当中的线程（一）",
+        "textContent":"1、进程和线程\n
+2、多线程程序运行模式\n
+3、定义线程的方法\n\n
+多线程与多进程\n
+多进程：（进程是在各自独立的内存空间中运行）\n
+    操作系统中能（同时）运行多个任务（程序）\n
+多线程：（一个进程中的线程可以共享系统分派给这个进程的内存空间）\n
+    在同一应用程序中有多个顺序流（同时）执行\n\n
+定义线程的方法有两种：\n
+1、第一种是：继承Thread类，另一种是：实现Runnable接口。\n
+2、两种方法的本质上是一种方法，即都是通过Thread类建立线程，并运行Run()方法。\n\n
+创建线程的第一种方法\n
+方式1：\n
+    定义一个线程类，它集成类Thread（由JDK提供）并重写其中的方法run（），方法run（）称为线程体。\n
+    由于Java只支持单继承，用这种方法定义的类不能在继承其他类。\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2Njcy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2Njcy.html",
+        "titleContent":"第三十七集  Java当中的线程（二）",
+        "textContent":"1、实现线程的第二种方法\n
+2、控制线程的常用函数\n\n
+实现线程的第二种方法（实现Runnable接口）\n\n
+        总述:JDK提供一个实现Runnable接口的类作为线程的目标对象，在初始化一个Thread类或者Thread子类的线程对象时，把目标对象传递给这个线程实例（线程对象的引用），由该目标对象提供线程体。\n
+        分述：实现Runnable接口的类必须使用Thread类的实例才能创建线程。通过Runnable接口创建线程分为两步。\n
+        （1）将实现Runnable接口的类实例化。\n
+        （2）建立一个Thread对象，并将第（1）步实例化的对象作为参数传入Thread类的构造方法。\n\n
+线程的简单控制方法\n\n
+中断线程\n
+1、Thread.sleep（）线程进入休眠\n
+2、Thread.Yield（）线程让出CUP，并重新争夺CPU的使用\n
+设置线程的优先级\n
+1、getPriority（）取得优先级（最大或者最小优先级等）\n
+2、setPriority（）设置优先级\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2NzIw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2NzIw.html",
+        "titleContent":"第三十八集  Java当中的线程（三）",
+        "textContent":"1、多线程数据安全\n
+2、同步线程的方法\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2Nzgw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2Nzgw.html",
+        "titleContent":"第四十集  Java当中的数组",
+        "textContent":"1、数组的类型\n
+2、数组的定义方法\n
+3、数组的操作方法\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2ODQw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2ODQw.html",
+        "titleContent":"第四十一集  类集框架（一）",
+        "textContent":"1、什么是类集框架\n
+2、集合的中类\n
+3、类集框架的基础结构\n\n
+什么是类集框架\n
+1、类集框架是一组类和接口；\n
+2、位于java.util包当中（JDK提供）；\n
+3、主要用于存储和管理对象；\n
+4、主要分为三大类：集合、列表和映射：\n\n
+什么是集合（Set）\n
+集合中的对象不按特定的方式排序，并且没有重复对象；\n\n
+什么是列表（List）\n
+集合中对象按照索引位置排序，可以有重复的对象\n\n
+什么是映射（Map）\n
+集合中的每一个元素包含一个键对象和一个值对象，键不可以重复，值可以重复。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzQwNjA2OTAw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzQwNjA2OTAw.html",
+        "titleContent":"第四十二集  类集框架（二）",
+        "textContent":"1、Collection和Iterator接口\n
+2、Set与HashSet的使用方法\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XMzcwMjMxNjc2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XMzcwMjMxNjc2.html",
+        "titleContent":"第四十三集  类集框架（三）",
+        "textContent":"Map与HashMap的使用方法\n
+2、JDK帮助文档的使用方法\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTk2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTk2.html",
+        "titleContent":"第四十四集  equals函数的作用",
+        "textContent":"1、equals函数在什么地方\n
+2、equals函数的作用\n
+3、复写equals函数的方法\n\n
+“==”操作符的作用\n
+作用是：判断两个引用是否指向堆内存的同一个地址\n\n
+什么是对象的内容相等\n
+通常情况下：对象内容相等需要符合两个条件\n
+1、对象的类型相同（可以使用instanceof操作符进行比较）：\n
+2、两个对象的成员变量的值完全相同；\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNjY4\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNjY4.html",
+        "titleContent":"第四十五集  hashCode()和toString()的作用",
+        "textContent":"1、hashCode()的作用\n
+2、hashCode()的实现方法\n
+3、toString()的作用\n
+4、toString()的实现方法\n\n
+什么是Hash算法(了解)\n
+实质：输入一个任意长度的数据，通过Hsah算法，得到一个唯一的散列值。\n
+HashCode()复写原则：如果两个对象用equals相比是相等得，那么这两个对象调用HashCode()所返回的Hash值也应该是相等的\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNjAw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNjAw.html",
+        "titleContent":"第四十六集  开发工具之Eclipse（一）",
+        "textContent":"Eclipse部分使用快捷键\n\n
+1、Alt + / 代码助手功能\n
+2、Ctrl + D删除一行代码\n
+3、Ctrl + Z 撤销操作（Undo）\n
+4、Ctrl + Y 恢复操作（Redo）\n
+5、菜单里Source快捷生成构造方法（函数）、equals方法、hashCode方法、toString方法等。\n
+6、注释生成：\n
+1）注释一行代码：选中内容 + Ctrl + / (也可以选中多行代码进行分别注释)\n
+2）注释多行代码：选中内容 + Ctrl + Shift + /\n
+解除注释多行代码：选中内容 + Ctrl + Shift + \(这是反斜杠)\n
+7、Ctrl + Alt +   复制当前光标所在的一行代码（使用英特尔集成显卡及驱动的除外）。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNjYw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNjYw.html",
+        "titleContent":"第四十七集  开发工具之Eclipse（二）",
+        "textContent":"Eclipse部分使用快捷键\n\n
+1、Alt + / 代码助手功能\n
+2、Ctrl + D删除一行代码\n
+3、Ctrl + Z 撤销操作（Undo）\n
+4、Ctrl + Y 恢复操作（Redo）\n
+5、菜单里Source快捷生成构造方法（函数）、equals方法、hashCode方法、toString方法等。\n
+6、注释生成：\n
+1）注释一行代码：选中内容 + Ctrl + / (也可以选中多行代码进行分别注释)\n
+2）注释多行代码：选中内容 + Ctrl + Shift + /\n
+解除注释多行代码：选中内容 + Ctrl + Shift + \(这是反斜杠)\n
+7、Ctrl + Alt +   复制当前光标所在的一行代码（使用英特尔集成显卡及驱动的除外）。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTU2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTU2.html",
+        "titleContent":"第四十八集  开发工具之Eclipse（三）",
+        "textContent":"Eclipse部分使用快捷键\n\n
+1、Alt + / 代码助手功能\n
+2、Ctrl + D删除一行代码\n
+3、Ctrl + Z 撤销操作（Undo）\n
+4、Ctrl + Y 恢复操作（Redo）\n
+5、菜单里Source快捷生成构造方法（函数）、equals方法、hashCode方法、toString方法等。\n
+6、注释生成：\n
+1）注释一行代码：选中内容 + Ctrl + / (也可以选中多行代码进行分别注释)\n
+2）注释多行代码：选中内容 + Ctrl + Shift + /\n
+解除注释多行代码：选中内容 + Ctrl + Shift + \(这是反斜杠)\n
+7、Ctrl + Alt +   复制当前光标所在的一行代码（使用英特尔集成显卡及驱动的除外）。\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTgw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTgw.html",
+        "titleContent":"第四十九集  开发工具之Eclipse（四）",
+        "textContent":"代码的重构\n\n
+1、重构可以改善软件的设计\n
+2、重构可以让软件更加容易理解\n
+3、重构可以协助寻找bugs\n
+4、重构可以提升开发速度\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTY4\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTY4.html",
+        "titleContent":"第五十集  综合练习（一）",
+        "textContent":"综合练习目标/n/n
+1.复习Java基本语法/n
+2.熟练掌握Java开发常用API/n
+3.尝试建立面向对象思想/n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTMy\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTMy.html",
+        "titleContent":"第五十一集  综合练习（二）",
+        "textContent":"综合练习模块划分\n"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTM2\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTM2.html",
+        "titleContent":"第五十二集  综合练习（三）",
+        "textContent":"1.用户的输入格式\n
+2.应用程序的输出格式\n
+3.关于提示信息的思考\n
+"
+        },
+	{
+        "htmlstring":"<iframe height=250 width=310 src=\"http://player.youku.com/embed/XNDkyMTYxNTQw\" frameborder=0 allowfullscreen></iframe>",
+        "writeTime":"2015年7月22日",
+        "buttonUrl":"http://v.youku.com/v_show/id_XNDkyMTYxNTQw.html",
+        "titleContent":"第五十三集  综合练习（四）",
+        "textContent":"1.资源文件的作用\n
+2.资源文件的格式与访问\n
+3.主循环的设计\n"
+        },
+    ]

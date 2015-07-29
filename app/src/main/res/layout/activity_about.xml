@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aboutactivity2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearlayout_center"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_aboutactivity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#Fff"
+            android:textSize="22sp"
+            android:text=" LEARNING JAVA" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearlayout_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:background="@drawable/background_aboutactivity_alpha">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"
+            android:text="简 介"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="视频由Mars精心制作\n
+笔记由Mars论坛网友耐心整理\n
+视频下载地址：\n
+http://pan.baidu.com/s/1c06SfYg \n
+笔记下载地址：\n
+http://pan.baidu.com/s/1dDqAYFv \n
+如有问题请您联系作者：\n
+Nelda，350492082@qq.com\n"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
